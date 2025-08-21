@@ -1,4 +1,4 @@
-# 2) No mundo de The Witcher, criaturas diferentes apresentam características únicas. Baseado nas pistas abaixo, escreva um programa que identifique o tipo de criatura que Geralt está enfrentando:
+# # 2) No mundo de The Witcher, criaturas diferentes apresentam características únicas. Baseado nas pistas abaixo, escreva um programa que identifique o tipo de criatura que Geralt está enfrentando:
 
 apareceDia = input("O monstro aparece de dia? sim/não: ").lower()
 apareceNoite = input("O monstro aparece a noite? sim/não: ").lower()
@@ -20,3 +20,9 @@ elif temOlhos == "sim" and imitaVozHumana == "sim":
     print ("O monstro é um MÍMICO. ")
 else:
     print("Criatura desconhecida. Prepare-se para o pior.")
+
+
+
+
+
+
