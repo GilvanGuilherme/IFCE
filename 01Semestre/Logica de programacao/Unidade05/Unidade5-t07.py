@@ -1,0 +1,1 @@
+7 Número de Vogais Peça ao usuário para inserir uma frase. Usando um laço for conte e exiba quantas vogais existem na frase. Lembre de verificar a documentação do módulo String em busca de métodos que facilitem a verificação da letra ser vogal.
