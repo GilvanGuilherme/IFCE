@@ -1,0 +1,2 @@
+# Listas são coleções mutáveis e ordenadas permitindo alterações após a criação.
+# Tuplas são coleções imutáveis e ordenadas não podem ser alteradas ebquabto os Dicionários são coleções de pares chave-valor, desordenadas e mutáveis, usando chaves para aceder aos valores.
