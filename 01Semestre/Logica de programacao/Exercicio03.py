@@ -1,104 +1,113 @@
 
 
-# 01 Questão 
+# # 01 Questão 
 
-numero01 = int(input("Digite o primeiro número: " ))
-numero02 = int(input("Digite o segundo número: " ))
-soma = numero01 + numero02
-diferenca = numero01 - numero02
-produto = numero01*numero02
-divisao= numero01/numero02
-print(produto)
-
-
-# 02 Questão 
-
-base = int(input("Digite o valor da base em centimetros: " ))
-altura = int(input("Digite o valor da altura em centimetros: " ))
-
-area_Triangulo= (base*altura) / 2
-print(f'A area do triângulo é : {area_Triangulo} centimetros quadrados. ')
+# numero01 = int(input("Digite o primeiro número: " ))
+# numero02 = int(input("Digite o segundo número: " ))
+# soma = numero01 + numero02
+# diferenca = numero01 - numero02
+# produto = numero01*numero02
+# divisao= numero01/numero02
+# print(produto)
 
 
+# # 02 Questão 
 
+# base = int(input("Digite o valor da base em centimetros: " ))
+# altura = int(input("Digite o valor da altura em centimetros: " ))
 
-
-# 03 Questão 
-
-
-valor_hora = int(input("Quanto voce ganha por hora trabalhada ? : " ))
-horas_dia = int(input("Quantas horas voce trabalha por dia? : " ))
-dias_trabalhado = int(input("Quantos dias voce trabalhou este mes: ? "))
-salario_dia = valor_hora * horas_dia
-salario_mes = salario_dia * dias_trabalhado
-print(f'Esse mês você trabalhou {dias_trabalhado} dias e vai ganhar R${salario_mes}.')
+# area_Triangulo= (base*altura) / 2
+# print(f'A area do triângulo é : {area_Triangulo} centimetros quadrados. ')
 
 
 
 
-# 04 Questão 
+
+# # 03 Questão 
 
 
-idade = int(input('Quantos anos voce tem: ?'))
-dias_vivido = idade * 365
-print(f'Você viveu um total de {dias_vivido} dias. ')
+# valor_hora = int(input("Quanto voce ganha por hora trabalhada ? : " ))
+# horas_dia = int(input("Quantas horas voce trabalha por dia? : " ))
+# dias_trabalhado = int(input("Quantos dias voce trabalhou este mes: ? "))
+# salario_dia = valor_hora * horas_dia
+# salario_mes = salario_dia * dias_trabalhado
+# print(f'Esse mês você trabalhou {dias_trabalhado} dias e vai ganhar R${salario_mes}.')
 
 
-# 05 Questão
 
-nome = input('Digite seu nome: ')
-sobrenome = input('Digite seu sobrenome: ')
 
-nome_completo = nome + ' ' + sobrenome
-print(f'Seu nome completo é {nome_completo}, seja bem-vindo!')
+# # 04 Questão 
+
+
+# idade = int(input('Quantos anos voce tem: ?'))
+# dias_vivido = idade * 365
+# print(f'Você viveu um total de {dias_vivido} dias. ')
+
+
+# # 05 Questão
+
+# nome = input('Digite seu nome: ')
+# sobrenome = input('Digite seu sobrenome: ')
+
+# nome_completo = nome + ' ' + sobrenome
+# print(f'Seu nome completo é {nome_completo}, seja bem-vindo!')
  
-# 06 Questão 
+# # 06 Questão 
 
-temperatura_fahrenheit = float(input('Digite a temperatura em Fahrenheit: '))
+# temperatura_fahrenheit = float(input('Digite a temperatura em Fahrenheit: '))
 
-temperatura_celsius = (temperatura_fahrenheit - 32) * 5/9
-temperatura_kelvin = temperatura_celsius + 273.15
+# temperatura_celsius = (temperatura_fahrenheit - 32) * 5/9
+# temperatura_kelvin = temperatura_celsius + 273.15
 
-print(f'{temperatura_fahrenheit}F é igual a {temperatura_celsius}C')
-print(f'{temperatura_fahrenheit}F é igual a {temperatura_kelvin}K')
-
-
-# 07 Questão 
+# print(f'{temperatura_fahrenheit}F é igual a {temperatura_celsius}C')
+# print(f'{temperatura_fahrenheit}F é igual a {temperatura_kelvin}K')
 
 
-palavra = input('Digite uma palavra: ')
-
-contador= palavra.count('a')
-
-print(f'A letra "a" aparece {contador} vezes na palavra {palavra}.')
+# # 07 Questão 
 
 
-# 08 Questão 
+# palavra = input('Digite uma palavra: ')
 
-palavra = input('Digite uma palavra: ')
+# contador= palavra.count('a')
 
-palavra_invertida = palavra[::-1]
-
-print(f'A palavra invertida é: {palavra_invertida}')
+# print(f'A letra "a" aparece {contador} vezes na palavra {palavra}.')
 
 
-# 09 Questão 
+# # 08 Questão 
+
+# palavra = input('Digite uma palavra: ')
+
+# palavra_invertida = palavra[::-1]
+
+# print(f'A palavra invertida é: {palavra_invertida}')
 
 
-frase_separada = input('Digite uma frase : ')
-
-frase_junta = frase_separada.replace(' ', '')
-
-print(f'A frase sem espaços é: {frase_junta}')
+# # 09 Questão 
 
 
+# frase_separada = input('Digite uma frase : ')
 
-# 10 Questão
+# frase_junta = frase_separada.replace(' ', '')
 
-frase = input('Digite a primeira frase: ')
-
-frase_invertida = frase[::-1]
-frase_final = frase_invertida.replace('a', '*')
+# print(f'A frase sem espaços é: {frase_junta}')
 
 
-print(f'Aqui vai sua frase modificada: {frase_final}')
+
+# # 10 Questão
+
+# frase = input('Digite a primeira frase: ')
+
+# frase_invertida = frase[::-1]
+# frase_final = frase_invertida.replace('a', '*')
+
+
+# print(f'Aqui vai sua frase modificada: {frase_final}')
+
+
+def escolher_maior(n1,n2):
+    if n1 > n2:
+        print(f"O numero {n1} é maior que {n2}")
+    else:
+        print(f"O numero {n2} é maior que {n1}")
+    
+escolher_maior(12,9)
