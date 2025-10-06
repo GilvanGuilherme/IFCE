@@ -110,4 +110,4 @@ def escolher_maior(n1,n2):
     else:
         print(f"O numero {n2} é maior que {n1}")
     
-escolher_maior(12,9)
+escolher_maior(2,12)
