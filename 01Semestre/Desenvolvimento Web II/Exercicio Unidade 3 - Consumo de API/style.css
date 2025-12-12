@@ -1,0 +1,16 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#gallery img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
